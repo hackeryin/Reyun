@@ -127,7 +127,7 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
   s.libraries = 'sqlite3', "z" , "resolv", "c++"
-  s.vendored_frameworks = 'ReYunFramework/ReYunFramework.framework'
+  s.vendored_frameworks = 'reyun/ReYunFramework.framework'
   # s.vendored_libraries = 'reyun/libReYunTracking.a'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
