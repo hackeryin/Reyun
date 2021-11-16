@@ -97,7 +97,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
   # s.source_files = "hero/libWeiboSDK/*.h", "hero/WeChatSDK/*.h"
   # s.public_header_files = "hero/libWeiboSDK/*.h","hero/WeChatSDK/*.h"
-  # s.source_files = "reyun/*.h"
+  s.source_files = "reyun/**/**/**/*.{h,m}"
   # s.public_header_files = "reyun/*.h"
 
 
